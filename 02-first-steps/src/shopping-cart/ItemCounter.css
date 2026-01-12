@@ -1,0 +1,19 @@
+
+
+
+
+.item-row {
+  display: flex;
+  gap: 10;
+  width: 150;
+  margin-top: 10px;
+        
+}
+
+.item-text {
+  width: 150;
+}
+
+.red {
+  color: red;
+}

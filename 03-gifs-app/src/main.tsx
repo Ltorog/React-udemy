@@ -1,13 +1,12 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.tsx'
-import { FirstStepApp } from './FirstStep.tsx'
-import { MyAwesomeApp } from './MyAwesomeApp.tsx'
+import { GifsApp } from './GifsApp'
+// import { MyCounterApp } from './counter/components/MyCounterApp'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    {/* <MyAwesomeApp /> */}
-    <FirstStepApp/>
+    <GifsApp/>
+    {/* <MyCounterApp /> */}
   </StrictMode>,
 )

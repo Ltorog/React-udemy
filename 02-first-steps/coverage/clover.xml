@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1767649511282" clover="3.2.0">
+  <project timestamp="1767649511282" name="All files">
+    <metrics statements="26" coveredstatements="26" conditionals="7" coveredconditionals="5" methods="11" coveredmethods="11" elements="44" coveredelements="42" complexity="0" loc="26" ncloc="26" packages="3" files="6" classes="6"/>
+    <package name="src">
+      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
+      <file name="FirstStep.tsx" path="C:\Users\luist\Desktop\Proyectos Varios\React-udemy\02-first-steps\src\FirstStep.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="28" count="9" type="stmt"/>
+      </file>
+      <file name="MyAwesomeApp.tsx" path="C:\Users\luist\Desktop\Proyectos Varios\React-udemy\02-first-steps\src\MyAwesomeApp.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.helpers">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="math.helper.ts" path="C:\Users\luist\Desktop\Proyectos Varios\React-udemy\02-first-steps\src\helpers\math.helper.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shopping-cart">
+      <metrics statements="9" coveredstatements="9" conditionals="5" coveredconditionals="4" methods="4" coveredmethods="4"/>
+      <file name="ItemCounter.css" path="C:\Users\luist\Desktop\Proyectos Varios\React-udemy\02-first-steps\src\shopping-cart\ItemCounter.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="ItemCounter.module.css" path="C:\Users\luist\Desktop\Proyectos Varios\React-udemy\02-first-steps\src\shopping-cart\ItemCounter.module.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="ItemCounter.tsx" path="C:\Users\luist\Desktop\Proyectos Varios\React-udemy\02-first-steps\src\shopping-cart\ItemCounter.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="5" coveredconditionals="4" methods="4" coveredmethods="4"/>
+        <line num="11" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="12" type="stmt"/>
+        <line num="14" count="12" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="18" count="12" type="stmt"/>
+        <line num="19" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="22" count="12" type="stmt"/>
+        <line num="23" count="12" type="stmt"/>
+        <line num="30" count="12" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

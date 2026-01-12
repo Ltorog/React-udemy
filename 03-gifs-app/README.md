@@ -4,6 +4,8 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 Currently, two official plugins are available:
 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 ## React Compiler
 
@@ -69,33 +71,3 @@ export default defineConfig([
   },
 ])
 ```
-
-## Debugging and VS Code tasks
-
-Use the provided VS Code configurations and tasks to run and debug the app and tests.
-
-- **Dev server (Vite):** Run the task `npm: dev` or start the `Launch Chrome (Vite)` / `Launch Edge (Vite)` configuration in the Run and Debug pane. This launches `http://localhost:5173`.
-- **Run all tests:** Use `npm run test` or the `npm: test` task.
-- **Run current test file:** Use the `npm: test:file` task (runs `npm run test -- --run ${file}`) or select the `Debug Vitest: Current File` configuration to debug the currently open test file.
-- **Debug Vitest:** Use the `Debug Vitest` configuration to run the full test suite under the debugger. The configuration includes `--experimental-vm-modules` and `--enable-source-maps` to improve ESM and source-map support.
-
-Files modified/added for this setup:
-
-- `.vscode/launch.json` — launchers for Chrome/Edge and Vitest.
-- `.vscode/tasks.json` — tasks: `npm: dev`, `npm: test`, `npm: test:file`.
-
-Workflow examples
-
-- Start dev server and open app in Chrome (with debugger attached):
-
-```bash
-# start from VS Code Run & Debug: select "Launch Chrome (Vite)"
-```
-
-- Run or debug the current test file:
-
-```bash
-# Run once from terminal or tasks: npm run test -- --run path/to/file.test.tsx
-# Or in VS Code: run the task "npm: test:file" or the configuration "Debug Vitest: Current File"
-```
-
